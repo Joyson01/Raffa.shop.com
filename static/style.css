@@ -8,7 +8,7 @@
 /* Font Face Declaration */
 @font-face {
     font-family: 'HYWenHei-85W';
-    src: url('/static/genshin.ttf') format('truetype');
+    src: url('static/genshin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
