@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAFFA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Home/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="itto.png" alt="My Website Logo">
+                <h1>RAFFA</h1>
+            </div>
+            <nav class="menu-container">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="signin-button">Sign In</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <button class="menu-button">&#9776;</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="swiper-container swiper-custom">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="Designer1.png" alt="Slide 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Designer2.png" alt="Slide 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Designer3.png" alt="Slide 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Designer4.png" alt="Slide 4">
+                </div>
+            </div>
+            <!-- Add pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <section class="hero">
+            <h1>Welcome to Raffa Pvt Ltd</h1>
+            <p>Get Your Best Choice From Here!!!</p>
+        </section>
+        <div class="highlights">
+            <h2>Highlights</h2>
+            <p>Highlight 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Highlight 2: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Highlight 3: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyright ⓒ 1995-2023 RAMSUNG All Rights reserved.<br>
+            Registered Office Address: 6th Floor, RAMSUNG Centre, Bhayender(E), Mumbai-401106<br></p>
+    </footer>
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+</body>
+</html>
